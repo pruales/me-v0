@@ -1,8 +1,8 @@
 <template>
   <div class="portfolio">
-    <a href=""><h1>ICYMT</h1></a>
-		<a href=""><h1>OMNILIFE</h1></a>
-		<a href=""><h1>THE SIDE PROJECT</h1></a>
+    <a href="https://www.producthunt.com/posts/icymt"><h2>ICYMT</h2></a>
+		<a href="https://drive.google.com/file/d/1ynLpCV52_n5IoZiWfpFk3FG4ay90KlM8/view?usp=sharing"><h2>OMNILIFE</h2></a>
+		<a href="https://thesideproject.substack.com/"><h2>THE SIDE PROJECT</h2></a>
   </div>
 </template>
 
@@ -19,17 +19,7 @@ export default {
   font-weight: 700;
 	font-style: normal;
 	font-size: 25px;
-	
-}
-
-.portfolio a {
-	text-decoration: none;
-	color: aquamarine;
-}
-
-a:-webkit-any-link {
-	text-decoration: none;
-	cursor: pointer;
+	letter-spacing: 1.0px;
 }
 
 </style>

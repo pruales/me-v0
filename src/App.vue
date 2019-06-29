@@ -1,15 +1,19 @@
 <template>
   <div id="app">
     <Home/>
+    <Footer/>
   </div>
 </template>
 
 <script>
 import Home from './components/Home';
+import Footer from './components/Footer';
+
 export default {
   name: 'app',
   components: {
-    Home
+    Home,
+    Footer
   }
 }
 </script>
@@ -25,9 +29,20 @@ export default {
   align-items: center;
   justify-content: center;
   height: 100vh;
+
 }
 
 body{
   background-color: #111517;
   }
+
+a {
+	text-decoration: none;
+	color: aquamarine;
+}
+
+a:-webkit-any-link {
+	text-decoration: none;
+	cursor: pointer;
+}
 </style>
